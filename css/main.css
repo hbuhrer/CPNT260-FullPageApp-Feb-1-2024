@@ -1,0 +1,47 @@
+main {
+    flex: 1;
+}
+
+.main-content {
+    color: hsl(200, 8%, 8%);
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+}
+
+.card-content {
+    padding: 1em;
+    background-color: hsl(200, 8%, 8%);
+    color: hsl(150, 67%, 99%);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 1.2em;
+    transition: transform 200ms ease-in-out;
+}
+
+.card-content:hover {
+    transform: scale(1.05);
+    transition: transform 200ms ease-in-out;
+    background-color: #333;
+}
+
+.footer-sticky {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    font-size: small;
+}
+
+.footer-not-sticky {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    font-size: small;
+}

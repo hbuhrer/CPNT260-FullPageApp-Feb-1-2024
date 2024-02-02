@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    line-height: 1.7em;
+    color: hsl(150, 67%, 99%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    padding: 1em;
+}
+
+a {
+    transition: transform 200ms ease-in;
+}
+
+.contact-form {
+    color: black;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2.5em;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.nav-menu a, li {
+    color: hsl(150, 67%, 99%);
+    text-decoration: none;
+    list-style: none;
+    padding-right: 0.3em;
+    display: inline-flex;
+}
+
+.nav-menu a:hover {
+    color: orange;
+    transform: scale(1.05);
+    transition: transform 200ms ease-in;
+}
+
+.nav-links li:hover {
+    color: orange;
+    transform: scale(1.05);
+    transition: transform 200ms ease-in;
+}
+
+.nav-links a:active {
+    color: orange;
+}
